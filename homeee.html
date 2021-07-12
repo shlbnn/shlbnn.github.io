@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+	<div class="wrapper">
+			<nav class="navbar">
+				<img class="logo" src="logo.png">
+				<ul>
+					<li><a class="active" href="homeee.html">Home</a></li>
+					<li><a href="About-us.html">About Us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					
+				</ul>
+			</nav>	
+			
+			<div class="wrapper">
+			<h1>Online Electronic </h1>
+			<h3>Attendance Checker</h3>
+			<h2>Dowloadable Attendance Checker</h2>
+			
+			<a href="Online Electronic Attendance Checker System.zip" class="btn" download="System">System</a>
+			<a href="Online Electronic Attendance Checker Database.zip" class="btn-2" download="Database" >Database</a>
+			<h5> --- --Instruction of downloadable attendance checker-- ---</h5>
+			<h5> --- Manual Upload of Database: ---</h5><br>
+			<p> STEP1: Go to downloadable "AttendanceSystem" file. </h4>
+			<p> STEP2: Extract the AttendanceSystem File. </p>
+			<p> STEP3: Then copy "attendanceDB.mdf & attendanceDB_log.LDF" file. </p>
+			<p> STEP4: Paste it on the Local Disk (C:) > Program Files > Microsoft SQL Server > MSSQL10.SQLEXPRESS > MSSQL > DATA </p>
+			<p> STEP5: Then go to SQL Server Database and connect it. </p>
+			<p> STEP6: Check the Databases, if it's already attach the file. </p><br>
+			<h5> --- Other way (2nd Instruction): Note: If the first instruction of the manual upload of Database didn't work, go to the 2nd Instruction. ---</h5><br>
+			<p> STEP1: Create a file out side the Local Disk (C:) </p>
+			<p> STEP2: Then go to downloadable "AttendanceSystem" file.</p>
+			<p> STEP3: Extract the AttendanceSystem file.</p>
+			<p> STEP4: Click AttendanceSystem > AttendanceSystem > SQL Server Database.</p>
+			<p> STEP5: Then copy "attendanceDB.mdf & attendanceDB_log.LDF" file. </p>
+			<p> STEP6: Paste it on the Local Disk (C:) > File you create</p>
+			<p> STEP7: Properties of the both file > Security > Click Authenticated Users or Create  Everyone > Click all Allow > Click the Read Only to edit the database. </p>
+			<p> STEP8: Then go to SQL Server Databases and connect it.</p>
+			<p> STEP9: Proceed to the Databases > Right Click > Attach the file.</p>
+			<p> STEP10: After that check the Databases , if it's already attach the file.</p><br>
+			<h5> --- Change data source to run the system and access database: ---</h5><br>
+			<p> STEP1: Open downloaded AttendanceSystem solution file on Visual Studio 2017. </p>
+			<p> STEP2: Double click every form and change the all Data Source into (YourDevice Name)\SQLEXPRESS;Initial Catalog=attendanceDB;Integrated Security=True;Pooling=False </p>
+			<p> STEP3: And paste it on every sql connection code block in each form. </p>
+			<p> STEP4: Then run the system to check if you change the data source successfully. </p><br>
+			<h5> If you want to Publish the system for the easy acces, here the following below : </h5><br>
+			<p> STEP1: Click the VB AttendanceSystem. </p>	
+			<p> STEP2: Right Click > Properties > Publish. </p>	
+			<p> STEP3: Click the Publishing Folder Location, you can choose where to put the system. </p>	
+			<p> STEP4: Choose a Install Mode and Settings. </p>	
+			<p> STEP5: Publish Version make it ( 1, 0, 0, 2). </p>	
+			<p> STEP6: Click Publish Now. </p>	
+			<p> STEP7: Wait the published system and try it. </p><br><br>	
+			<h5>--- YOU CAN CONTACT US BY CLICKING THE CONTACT IN THE NAVIGATION BAR ---</h5>
+			
+			
+		</div>
+		</div>
+		</body>
+</html>
